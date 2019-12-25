@@ -445,6 +445,22 @@ height:50vh;
 
     
     
+    <script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
+    <script src='//unpkg.com/valine/dist/Valine.min.js'></script>
+    <div id="comment"></div>
+    <script>
+    new Valine({
+        el: '#comment' ,
+        notify:false, 
+        verify:false, 
+        appId: "u5gAK6B3P4Jfk5CwxdokGf41-gzGzoHsz",
+        appKey: "WASf8EMS225mOcBB3IlnlVt6",
+        placeholder: "",
+        path:window.location.pathname, 
+        avatar:'mm' 
+    });
+    </script>
+
 
     <!-- 评论 -->
 </main>
